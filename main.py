@@ -18,7 +18,6 @@ def add_recipe():
     recipes.append(title)
     print("Рецепт добавлен!")
 
-# Главный цикл
 while True:
     show_menu()
     choice = input("Выберите пункт меню: ")
